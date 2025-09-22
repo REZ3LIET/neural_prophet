@@ -20,13 +20,13 @@ Homepage = "https://github.com/ourownstory/neural_prophet"
 poetry-plugin-export = ">=1.8"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
-numpy = ">=1.25.0,<2.0.0"
+python = ">=3.10,<3.13"
+numpy = "^2.2.6"
 pandas = "^2.3.2"
-torch = ">=2.0.0,<2.4.0"
+torch = "^2.8.0"
 # Note: torch defaults to already installed version or installs CUDA version
 # If you want CPU-only torch, install that before installing neuralprophet.
-pytorch-lightning = ">=2.0.0,<2.4.0"
+pytorch-lightning = "^2.5.5"
 tensorboard = ">=2.11.2"
 torchmetrics = ">=1.0.0"
 typing-extensions = ">=4.5.0"
